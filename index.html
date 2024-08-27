@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="letra-a" src="assets/Vector.png" alt="letra a minuscula">
+    </header>
+    <main>
+        <section class="esquerda">
+            <textarea name="texto-entrada" id="entrada" placeholder = "Digite seu texto"></textarea>
+            <p  > <span class="material-symbols-outlined">
+                exclamation
+                </span>  Apenas letras minúsculas e sem acento.</p>
+            <div class="botoes">
+                   <button class="bnt-encripita">Criptografar</button>
+                   <button class="bnt-desencripta">Descriptografar</button>
+            </div>
+           
+        </section>
+        <section class="direita">
+            <textarea name="texto-saida" id="saida"></textarea>
+            <button class="bnt-copia">Copiar</button>
+        </section>
+    </main>
+    <footer>Desenvolvido por Felipe</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

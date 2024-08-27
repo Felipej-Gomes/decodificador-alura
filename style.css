@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.cabecalho {
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    height: 50px; 
+    background-color: #F3F5FC;
+}
+
+
+.letra-a {
+    margin-left: 20px; 
+    width: 30px; 
+    height: auto; 
+}
+
+
+
+/* Estilo do contêiner principal */
+main {
+    display: flex;
+    height: calc(100vh - 50px); 
+}
+
+textarea::placeholder{
+    color: #0056b3;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+
+
+}
+
+#entrada {
+ width: 800px;
+ background-color: #F3F5FC;
+    
+}
+
+#saida { 
+    height: 500px;
+    background-color: #F3F5FC;
+    
+    
+}
+/* Seção esquerda */
+.esquerda {
+    flex: 7;
+    padding: 20px;
+    background: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Seção direita */
+.direita {
+    flex: 3;
+    padding: 20px;
+    background: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para as textareas */
+textarea {
+    width: 90%;
+    height: 250px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+}
+
+.botoes{
+    display: flex;
+    gap: 10px;
+    padding: 15px 50px; 
+    width: 100%; 
+    max-width: 300px; 
+
+}
+
+/* Estilo para os botões */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0A3871;
+    color: white;
+    height: 50px;
+}
