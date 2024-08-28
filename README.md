@@ -3,17 +3,17 @@
 <h2>Descrição do projeto</h2>
 Projeto desenvolvido na formação da Alura + Oracle, onde foi projetado um decodificador de texto.
 <h2>Requisitos</h2>
-As "chaves" de criptografia que utilizaremos são:
-A letra "e" é convertida para "enter"
-A letra "i" é convertida para "imes"
-A letra "a" é convertida para "ai"
-A letra "o" é convertida para "ober"
-A letra "u" é convertida para "ufat"
-
-Requisitos:
-- Deve funcionar apenas com letras minúsculas
-- Não devem ser utilizados letras com acentos nem caracteres especiais
-- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+As "chaves" de criptografia que utilizaremos são: <br>
+A letra "e" é convertida para "enter" <br>
+A letra "i" é convertida para "imes"<br>
+A letra "a" é convertida para "ai"<br>
+A letra "o" é convertida para "ober"<br>
+A letra "u" é convertida para "ufat"<br>
+<br>
+Requisitos: <br>
+- Deve funcionar apenas com letras minúsculas <br>
+- Não devem ser utilizados letras com acentos nem caracteres especiais<br>
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.<br>
 
 Por exemplo:
 "gato" => "gaitober"
